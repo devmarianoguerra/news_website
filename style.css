@@ -17,6 +17,8 @@ body {
   margin: auto;
 }
 
+/*Navbar*/
+
 .nav_main {
   font-size: 15px;
   display: flex;
@@ -60,6 +62,12 @@ ul {
   margin-left: 20px;
 }
 
+hr {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+/*Main news*/
 .showcase {
   width: 100%;
   height: 550px;
@@ -67,4 +75,55 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  margin: 10px 0px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+}
+
+/*News cards*/
+
+.news_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 25px 0px;
+}
+
+.news_cards img {
+  width: 100%;
+  height: 200px;
+}
+
+.news_cards h3 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.news_cards a:hover {
+  border-bottom: 2px solid white;
 }
