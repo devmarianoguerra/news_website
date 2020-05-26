@@ -190,3 +190,55 @@ hr {
   margin-bottom: 10px;
   margin-right: 25px;
 }
+
+/*social media*/
+
+.socialmedia {
+  margin: 50px;
+}
+
+.socialmedia p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.links {
+  text-align: center;
+  font-size: 30px;
+}*/
+
+.links a {
+  margin: 0px 30px;
+  font-size: 3rem;
+}
+
+/*Footer*/
+
+.footer_info {
+  background-color: #221e1c;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer_container ul {
+  margin: 0 auto;
+}
+
+.footer_container ul li {
+  line-height: 2.3;
+}
