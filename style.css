@@ -67,6 +67,15 @@ hr {
   margin-top: 5px;
 }
 
+.menu_btn {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+
 /*Main news*/
 .showcase {
   width: 100%;
@@ -262,6 +271,20 @@ hr {
     top: 0;
     left: 0;
     background-color: #221e1c;
+    height: 100%;
+    transform: translate(-20px);
+    padding: 30px;
+    opacity: 0.8;
+  }
+
+  .nav_main ul.nav_menu_left li {
+    padding: 20px;
+    border-bottom: 2px solid #3d3937;
+    font-size: 14px;
+  }
+
+  .nav_main ul.nav_menu_right {
+    margin-right: 25px;
   }
 
   .news_cards {
